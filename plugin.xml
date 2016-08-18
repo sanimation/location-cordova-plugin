@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="location-cordova-plugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>My location plugin</name>
+    <author>Sandrine (http://http://sanimation.github.io/)</author>
+    <description>Cordova / PhoneGap Plugin to allow location by adding a declaration to the Info.plist file</description>
+    <keywords>cordova, ios, app, location, nslocationwheninuseusagedescription</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <platform name="ios">
+      <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+          <string>Accessing GPS information is needed to display POIs around your current location</string>
+      </config-file>
+    </platform>
+</plugin>

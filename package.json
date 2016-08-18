@@ -1,0 +1,36 @@
+{
+  "name": "location-cordova-plugin",
+  "version": "0.0.1",
+  "author": "sandrine <sandrine.zecler@gmail.com> (http://http://sanimation.github.io/)",
+  "description": "Cordova / PhoneGap Plugin to allow location by adding a declaration to the Info.plist file",
+  "cordova": {
+    "id": "location-cordova-plugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanimation/location-cordova-plugin.git"
+  },
+  "keywords": [
+    "cordova",
+    "ios",
+    "app",
+    "location",
+    "nslocationwheninuseusagedescription",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanimation/location-cordova-plugin/issues"
+  },
+  "homepage": "https://github.com/sanimation/location-cordova-plugin#readme"
+}

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<plugin id="location-cordova-plugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<plugin id="fr.efficiencesoftware.locationplugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
     <name>My location plugin</name>
     <author>Sandrine (http://http://sanimation.github.io/)</author>
     <description>Cordova / PhoneGap Plugin to allow location by adding a declaration to the Info.plist file</description>
